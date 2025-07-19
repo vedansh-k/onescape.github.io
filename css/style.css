@@ -1,26 +1,15 @@
 body {
   font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .hero {
   background: url('../images/hero.jpg') center center/cover no-repeat;
-  padding: 120px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
   color: white;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  line-height: 1.4;
-}
-
-.btn-success {
-  background-color: #28a745;
-  border-color: #28a745;
-}
-
-.btn-success:hover {
-  background-color: #218838;
-  border-color: #1e7e34;
+  text-align: center;
 }
 
 .card {
@@ -30,6 +19,11 @@ body {
   transform: translateY(-5px);
 }
 
-.list-unstyled li {
-  margin-bottom: 1rem;
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
 }
