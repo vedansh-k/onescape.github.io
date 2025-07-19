@@ -1,7 +1,7 @@
-// AOS Init
+// Initialize AOS
 AOS.init();
 
-// Swiper Init (for portfolio)
+// Swiper Init
 const swiper = new Swiper('.swiper', {
   loop: true,
   pagination: { el: '.swiper-pagination' },

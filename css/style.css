@@ -1,15 +1,26 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  scroll-behavior: smooth;
 }
 
 .hero {
   background: url('../images/hero.jpg') center center/cover no-repeat;
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  padding: 120px 0;
   color: white;
-  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
 }
 
 .card {
@@ -19,11 +30,29 @@ body {
   transform: translateY(-5px);
 }
 
-.btn-success {
-  background-color: #28a745;
-  border-color: #28a745;
+.list-unstyled li {
+  margin-bottom: 1rem;
 }
-.btn-success:hover {
-  background-color: #218838;
-  border-color: #1e7e34;
+
+.swiper {
+  width: 100%;
+  height: 500px;
+}
+
+.swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #28a745;
 }
