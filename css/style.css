@@ -29,3 +29,7 @@ body {
 .card:hover {
   transform: translateY(-5px);
 }
+
+.list-unstyled li {
+  margin-bottom: 1rem;
+}
